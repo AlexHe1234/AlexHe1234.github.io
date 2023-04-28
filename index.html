@@ -1,1 +1,84 @@
-"Hello world" 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>my second html page</title>
+
+        <!--meta testing-->
+        <meta http-equiv="refresh" content="10">
+        
+        <!--internal css-->
+        <style type="text/css">
+            body {background-color: rgb(209, 233, 210);}
+            p {background-color: rgb(152, 200, 209);}
+            small {background-color: lavender;}
+            i {background-color: pink;}
+            h1 {background-color: aliceblue; text-align: center;}
+        </style>
+    </head>
+
+    <body>
+        <!--headers-->
+        <p>
+            <h1>first header</h1>
+            <h2 style="background-color: rgb(255, 255, 159)">Second header</h2>
+            <h3 style="background-color: rgb(141, 200, 255);">Third header</h3>
+        </p>
+
+        <!--place marks-->
+        <p>
+            <a id="here">i placed a mark here</a>
+            <img src="./1.jpg" width="300" alt="image not loaded">
+        </p>
+
+        <!--text manipulation-->
+        <p>
+            <small>small text</small>
+            <br />
+            <b>bold text, </b>
+            <strong>strong text</strong>
+            <br />
+            <i>italic text, </i>
+            <em>emphasize text</em>
+        </p>
+
+        <!--more text manipulation-->
+        <p>
+            <sub>this is sub</sub>
+            <br />
+            <sup>this is sup</sup>
+            <br />
+            <ins>this is ins</ins>
+            <br />
+            <del>this is del</del>
+            <br />
+        </p>
+
+        <!--div-->
+        <p style="color: rgb(169, 54, 150);margin-left:20px">
+            so this is red, big deal
+        </p>
+
+        <!--hyperlink and images-->
+        <p>
+            <a href="https://www.google.com/">
+                <img src="./2.jpeg" height="300">
+            </a>
+        </p>
+
+        <!--target attribute-->
+        <p>
+            <a href="https://www.youtube.com/" target="_blank">target test</a>
+            <br />
+            <a href="https://www.youtube.com/" target="_self">target test</a>
+        </p>
+
+        <!--id testing-->
+        <p>
+            <br />
+            <a href="#here">go to the mark</a>
+            <br />
+            <a href="#img">go to the previous image</a>
+        </p>
+    </body>
+</html>
